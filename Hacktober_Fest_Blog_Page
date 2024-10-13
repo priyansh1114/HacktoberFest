@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacktoberfest Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #ff5722;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            background-color: #333;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #111;
+        }
+        main {
+            padding: 20px;
+        }
+        article {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hacktoberfest Blog</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article id="blog">
+            <h2>Welcome to Hacktoberfest 2024!</h2>
+            <p>Hacktoberfest is an annual event that encourages participation in the open-source community. It's a great opportunity to contribute to projects, learn new skills, and connect with other developers.</p>
+            <p>This year, we're excited to see a wide range of contributions from all over the world. Whether you're a seasoned developer or just starting out, there's a place for you in the open-source community.</p>
+            <p>Here are some tips to get started:</p>
+            <ul>
+                <li>Find a project that interests you.</li>
+                <li>Read the contribution guidelines.</li>
+                <li>Start with small issues to get familiar with the project.</li>
+                <li>Don't be afraid to ask for help!</li>
+            </ul>
+            <p>Happy
